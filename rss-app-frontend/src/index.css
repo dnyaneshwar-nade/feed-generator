@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.slick-dots li button:before {
+  color: #3B82F6;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #2563EB;
+}
